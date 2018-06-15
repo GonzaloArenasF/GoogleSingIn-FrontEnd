@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="google-signin-client_id" content="621224652184-bt8d2i98qk5ss5o6c63sn59ukahmj9bj.apps.googleusercontent.com">
+
+    <title>Demo Google Sign In</title>
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>https://developers.google.com/identity/sign-in/web/sign-in</h1>
+    </header>
+
+    <section>
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        <button type="button" onclick="signOut();">Sign out</button>
+    </section>
+
+    <footer>
+
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <script src="index.js"></script>
+
+    </footer>
+    
+  </body>
+
+</html>
